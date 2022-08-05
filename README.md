@@ -1,4 +1,4 @@
-#WGU-Project-3-Data-Modeling-with-Postgres
+# WGU-Project-3-Data-Modeling-with-Postgres
 
 The purpose of the database was to enable Sparkify to run queries on song play analysis in order to understand what songs users are listening to. In order to do this we will need to define a fact table, songplays that will aggregate data based on our dimension tables: songs, users, artists, and time. As this is a relatively simple query with specific data we are looking for a star schema will be best. From there we will use an ETL pipeline that will take data from two JSON files and transfer it into our fact and dimension tables for Sparkify to run analyses. 
 
